@@ -1,0 +1,172 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+.primary{
+    color: #46c9be !important;
+}
+ul{
+    padding: 0;
+}
+li{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+.clearfix{
+    clear: both;
+}
+.brdr{
+    border-bottom: 1px solid #f8f8f8;
+}
+.header{
+    text-align: center;
+    margin-top: 100px;
+    
+}
+.header .logo h1{
+    color: #333333;
+    font-size: 60px;
+    line-height: 0;
+}
+.header .logo p{
+    line-height: 24px;
+    font-size: 19px;
+    color: #333333;
+}
+.header .menu{
+    display: block;
+    text-align: center;
+    margin-top: 40px;
+}
+.header .menu li{
+    display: inline-block;
+    padding: 15px;
+    font-size: 19px;
+    
+}
+.header .menu li a{
+    color: #333333 ;
+}
+.container{
+
+    width: 80%;
+    margin: 0 auto;
+}
+.content{
+    width: 100%;
+    height: 370px;
+    margin-top: 50px;
+    position: relative;
+}
+.content .left{
+    width: 65%;
+    height: 100%;
+    display: inline-block;
+    float: left;
+
+}
+.content .next{
+    position: absolute;
+    top: 120px;
+    right: 50px;
+    color: #eaeaea;
+    font-size: 50px;
+}
+.content .prew{
+    position: absolute;
+    top: 120px;
+    left: 50px;
+    color: #eaeaea;
+    font-size: 50px;
+}
+.content .left img{
+    width: 100%;
+}
+.content .right {
+    margin-left: 35px;
+    width: 30%;
+    float: left;
+    display: inline-block;
+}
+
+.content .right .text h1{
+    font-size: 38px;
+    color: #333333;
+    line-height: 0;
+    font-weight: 500;
+}
+.content .right .text p{
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+.content .right .btn{
+    background-color: #46c9be;
+    clear: both;
+    color: #ffffff;
+    display: inline-block;
+    font-size: 18px;
+    padding: 10px 20px;
+    border-radius: 3px;
+}
+.btn a{
+    color: #ffffff;
+}
+.folder{
+    margin-top: 50px;
+    width: 100%;
+    height: 500px;
+    margin-bottom: 50px;
+}
+.folder .left {
+    height: 500px;
+    width: 47.5%;
+    float: left;
+    display: inline-block;
+    position: relative;
+}
+
+img{
+    width: 100%;
+    height: 100%;
+}
+.folder .right{
+    height: 500px;
+    width: 47.5%;
+    float: right;
+    display: inline-block;
+    position: relative;
+}
+.folder .text {
+    color: #fff;
+    text-align: center;
+}
+.folder .text{
+    
+    text-shadow: 1px 1px 2px #666666;
+    font-size: 19px;
+    text-transform: uppercase;
+    padding: 10px;
+    position: absolute;
+    top: 145px;
+    left: 60px;
+
+}
+.folder .text h2::after{
+    content: "";
+    background: #fff;
+    display: block;
+    height: 2px;
+    margin: 15px auto;
+    width: 100px;
+}
+.folder .text .icon{
+    position: absolute;
+    font-size: 13px;
+    top: 110px;
+    left: 40px;
+}
+.folder .text .icon i{
+    padding-left: 20px;
+}
